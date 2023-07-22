@@ -3,7 +3,7 @@ src = 'src'
 out = 'out'
 libs = ['lib']
 solc = "0.8.18"
-eth-rpc-url = "https://rpc.ankr.com/eth"
+eth-rpc-url = "${MAINNET_RPC_URL}"
 
 remappings = [
     "@openzeppelin/=lib/openzeppelin-contracts/",
