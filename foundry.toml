@@ -15,3 +15,4 @@ goerli = "${GOERLI_RPC_URL}"
 [etherscan]
 goerli = { key = "${ETHERSCAN_API_KEY}", url = "${GOERLI_RPC_URL}" }
 mumbai = { key = "${POLYGON_ETHERSCAN_API_KEY}", url = "${MUMBAI_RPC_URL}" }
+polygon_zk_testnet = { key = "${POLYGON_ZK_TESTNET_ETHERSCAN_API_KEY}", url = "${RPC_URL_POLYGON_ZKTEST}" }
